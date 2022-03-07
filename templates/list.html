@@ -1,0 +1,18 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+{% for item in listItem %}
+<div class="item">
+    <input class="checkbox" type="checkbox">
+    <span class="line-through">{{ item }}</span>
+</div>
+{% endfor %}
+
+<script> 
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>
+
+{% endblock %}
