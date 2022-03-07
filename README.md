@@ -9,7 +9,7 @@ A to-do list using django
 The first thing to do is to clone the repository:
 
 ```sh
-$ git clone https://github.com/to-do-list/sample-django-app.git
+$ git clone https://github.com/yashbijoor/to_do_list-v1.git
 $ cd to_do_list
 ```
 
@@ -33,4 +33,4 @@ Now you can run the server by:
 (env)$ cd to_do_list
 (env)$ python manage.py runserver
 ```
-And navigate to (http://localhost:8000/)[http://localhost:8000/]
+And navigate to [http://localhost:8000/](http://localhost:8000/)
